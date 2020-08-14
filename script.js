@@ -145,7 +145,8 @@ addWordToDOM();
 
 // Typing
 text.addEventListener('input', e => {
-  const insertedText = e.target.value;
+  const inserted = e.target.value;
+  insertedText = inserted.toLowerCase();
 
   if (insertedText === randomWord) {
     addWordToDOM();
