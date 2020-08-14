@@ -62,9 +62,8 @@ button:focus {
 
 .greet{
   width: 300px;
-
   position: absolute;
-  right: 100px;
+  right: 50px;
   bottom: 30px;
 
  
